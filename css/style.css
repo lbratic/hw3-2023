@@ -1,0 +1,102 @@
+body{
+   line-height: 2;
+}
+
+
+header, nav{
+    padding: 5px 3px 6px 2px;
+    margin: 6px 5px 2px 3px;
+
+}
+nav ul li{
+    display: inline;
+    margin: 20px 100px 100px 100px;
+    padding: 20px;
+    font-size: 32px;
+    background-color: palegoldenrod;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+nav a.current{
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+
+h1{
+   font-size: 68px;
+    font-family: Merriweather, Anton, "Times New Roman";
+
+}
+
+h2{
+    font-size: 54px;
+    font-family: Anton, "Times New Roman", serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 36px;
+
+}
+
+h1, h2, h3{
+    margin-top: 5px;
+
+}
+.grid{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+}
+
+.grid div{
+    border: 3px solid black;
+    border-radius: 30px 30px 30px 30px;
+    padding: 5px;
+    background-color: lightskyblue;
+
+}
+
+.grid img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: 10px 0px 5px 0px #888;
+    }
+
+.grid div:nth-child(3n)  {
+    box-shadow: -10px 0px 5px 0px #888;
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: -10px 0px 5px 0px #888, 10px 0px 5px 0px #888;
+}
+
+p + p {
+     text-indent: 20px;
+  }
+
+p{
+     margin-top: 5px;
+}
+
+
+.grid ul li{
+    line-height: 1;
+    list-style-image: url('sketchbook.png');
+    margin: 0px 0px 45px 95px;
+}

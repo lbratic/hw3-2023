@@ -103,6 +103,6 @@ p{
 
 .grid ul li{
     line-height: 1;
-    list-style-image: url(images/sketchbook.png);
+    list-style-image: url(../images/sketchbook.png);
     margin: 0px 0px 45px 65px;
 }
